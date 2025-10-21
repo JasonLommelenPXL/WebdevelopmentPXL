@@ -1,0 +1,49 @@
+tbody tr:nth-child(even) {
+    background-color: #6facff;
+    color: black;
+}
+tbody tr:nth-child(odd) {
+    background-color: #408de4;
+    color: black;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td,th {
+    border: 1px solid black;
+    width: 125px;
+    padding: 10px;
+}
+
+.CaptionFooter {
+    caption-side: bottom;
+}
+
+.CaptionUpper {
+    caption-side: top;
+}
+
+.KleurWit th {
+    color: white;
+}
+
+.Centreren {
+    text-align: center;
+    font-weight: normal;
+}
+
+th {
+    background-color: #2c2c78;
+    color: white;
+}
+
+td {
+    color: white;
+    text-align: center;
+}
+
+html {
+    font-family: sans-serif;
+}
